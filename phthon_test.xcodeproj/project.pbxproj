@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		49B924401F6FA08500330E61 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		49B924411F71108F00330E61 /* first.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = first.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		49B924351F6F9B2400330E61 = {
 			isa = PBXGroup;
 			children = (
+				49B924401F6FA08500330E61 /* main.py */,
+				49B924411F71108F00330E61 /* first.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,6 +193,7 @@
 				49B9243F1F6F9B2400330E61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
