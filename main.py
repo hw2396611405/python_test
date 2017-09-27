@@ -25,21 +25,84 @@ print(name)
 #        print (i-arr[idx])*rat[idx]
 #        i=arr[idx]
 #print r
-year = int(input('year:\n'))
-month = int(input('month:\n'))
-day = int(input('day:\n'))
 
 
-months = (0,31,59,90,120,151,181,212,243,273,304,334)
-if 0 < month <= 12:
-    sum = months[month - 1]
-else:
-    print 'data error'
-sum += day
-leap = 0
-if (year % 400 == 0) or ((year % 4 == 0) and (year % 100 != 0)):
-    leap = 1
-if (leap == 1) and (month > 2):
-    sum += 1
-print 'it is the %dth day.' % sum
+#year = int(input('year:\n'))
+#month = int(input('month:\n'))
+#day = int(input('day:\n'))
 
+
+#months = (0,31,59,90,120,151,181,212,243,273,304,334)
+#if 0 < month <= 12:
+#    sum = months[month - 1]
+#else:
+#    print 'data error'
+#sum += day
+#leap = 0
+#if (year % 400 == 0) or ((year % 4 == 0) and (year % 100 != 0)):
+#    leap = 1
+#if (leap == 1) and (month > 2):
+#    sum += 1
+#print 'it is the %dth day.' % sum
+
+#x="a"
+#y="b"
+## 换行输出
+#print x
+#print y
+#
+#print '---------'
+## 不换行输出
+#print x,
+#print y,
+#
+## 不换行输出
+#print x,y
+
+
+#count = 0
+#while count < 5:
+#    print count, " is  less than 5"
+#    count = count + 1
+#else:
+#    print count, " is not less than 5"
+
+#while 语句
+#import random
+#while 1:
+#    s = int(random.randint(1, 3))
+#    if s == 1:
+#        ind = "石头"
+#    elif s == 2:
+#        ind = "剪子"
+#    elif s == 3:
+#        ind = "布"
+#    m = raw_input('输入 石头、剪子、布,输入"end"结束游戏:')
+#    blist = ['石头', "剪子", "布"]
+#    if (m not in blist) and (m != 'end'):
+#        print "输入错误，请重新输入！"
+#    elif (m not in blist) and (m == 'end'):
+#        print "\n游戏退出中..."
+#        break
+#    elif m == ind :
+#        print "电脑出了： " + ind + "，平局！"
+#    elif (m == '石头' and ind =='剪子') or (m == '剪子' and ind =='布') or (m == '布' and ind =='石头'):
+#        print "电脑出了： " + ind +"，你赢了！"
+#    elif (m == '石头' and ind =='布') or (m == '剪子' and ind =='石头') or (m == '布' and ind =='剪子'):
+#        print "电脑出了： " + ind +"，你输了！"
+
+i = 1
+while i :
+    j = 1
+    while j:
+        print j ,"*", i ," = " , i * j , '  ',
+        if i == j :
+            break
+        
+        j += 1
+        if j >= 10:
+            break
+    print "\n"
+    i += 1
+    if i >= 10:
+        break
