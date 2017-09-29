@@ -1,5 +1,7 @@
 #coding=utf-8
-import first.py
+#import first.py #列表
+#元组
+import unit.py
 
 """变量定义的规则：
     变量名只能是 字母、数字或下划线的任意组合
