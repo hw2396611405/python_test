@@ -1,9 +1,5 @@
 #coding=utf-8
-#import first.py
-
-
-#print "你好吗"
-#print "hello python"
+import first.py
 
 """变量定义的规则：
     变量名只能是 字母、数字或下划线的任意组合
@@ -14,6 +10,19 @@ name1 = "wupeiqi"
 print name1
 name  = "China"
 print(name)
+
+
+#i = 2
+#while(i < 100):
+#    j = 2
+#    while(j <= (i/j)):
+#        if not(i%j): break
+#        j = j + 1
+#      if (j > i/j) :print i, " 是素数"
+#      i = i + 1
+#
+#print "Good bye!"
+
 #i = int(raw_input('ssss:'))
 ##i = 600000
 #arr = [1000000,600000,400000,200000,100000,0]
@@ -91,18 +100,19 @@ print(name)
 #    elif (m == '石头' and ind =='布') or (m == '剪子' and ind =='石头') or (m == '布' and ind =='剪子'):
 #        print "电脑出了： " + ind +"，你输了！"
 
-i = 1
-while i :
-    j = 1
-    while j:
-        print j ,"*", i ," = " , i * j , '  ',
-        if i == j :
-            break
-        
-        j += 1
-        if j >= 10:
-            break
-    print "\n"
-    i += 1
-    if i >= 10:
-        break
+#i = 1
+#while i :
+#    j = 1
+#    while j:
+#        print j ,"*", i ," = " , i * j , '  ',
+#        if i == j :
+#            break
+#
+#        j += 1
+#        if j >= 10:
+#            break
+#    print "\n"
+#    i += 1
+#    if i >= 10:
+#        break  #注意缩进
+
