@@ -5,7 +5,12 @@
 #字典
 #import dictionary.py
 #continue 语句
-import judge.py
+#import judge.py
+#pass 占位符
+#import pass_test.py
+# 时间
+import time_test.py
+
 
 
 

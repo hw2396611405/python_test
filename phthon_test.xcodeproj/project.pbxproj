@@ -10,6 +10,9 @@
 		4932A6791F7E135F0008EB6D /* unit.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = unit.py; sourceTree = "<group>"; };
 		4932A67A1F7E1E570008EB6D /* dictionary.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = dictionary.py; sourceTree = "<group>"; };
 		49AF309A1F8B4D4F00A589A9 /* judge.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = judge.py; sourceTree = "<group>"; };
+		49AF309D1F8B55A300A589A9 /* pass_test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pass_test.py; sourceTree = "<group>"; };
+		49AF309E1F8B66F400A589A9 /* time_test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = time_test.py; sourceTree = "<group>"; };
+		49AF309F1F8B6FF900A589A9 /* function_test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = function_test.py; sourceTree = "<group>"; };
 		49B924401F6FA08500330E61 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 		49B924411F71108F00330E61 /* first.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = first.py; sourceTree = "<group>"; };
 		49FE15161F78FB63000BD236 /* server.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = server.py; sourceTree = "<group>"; };
@@ -27,6 +30,9 @@
 				4932A6791F7E135F0008EB6D /* unit.py */,
 				4932A67A1F7E1E570008EB6D /* dictionary.py */,
 				49AF309A1F8B4D4F00A589A9 /* judge.py */,
+				49AF309D1F8B55A300A589A9 /* pass_test.py */,
+				49AF309E1F8B66F400A589A9 /* time_test.py */,
+				49AF309F1F8B6FF900A589A9 /* function_test.py */,
 			);
 			sourceTree = "<group>";
 		};
