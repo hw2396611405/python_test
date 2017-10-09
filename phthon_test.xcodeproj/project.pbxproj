@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		4932A6791F7E135F0008EB6D /* unit.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = unit.py; sourceTree = "<group>"; };
 		4932A67A1F7E1E570008EB6D /* dictionary.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = dictionary.py; sourceTree = "<group>"; };
+		49AF309A1F8B4D4F00A589A9 /* judge.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = judge.py; sourceTree = "<group>"; };
 		49B924401F6FA08500330E61 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 		49B924411F71108F00330E61 /* first.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = first.py; sourceTree = "<group>"; };
 		49FE15161F78FB63000BD236 /* server.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = server.py; sourceTree = "<group>"; };
@@ -25,6 +26,7 @@
 				49FE15171F78FB9B000BD236 /* client.py */,
 				4932A6791F7E135F0008EB6D /* unit.py */,
 				4932A67A1F7E1E570008EB6D /* dictionary.py */,
+				49AF309A1F8B4D4F00A589A9 /* judge.py */,
 			);
 			sourceTree = "<group>";
 		};
