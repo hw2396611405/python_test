@@ -140,4 +140,5 @@ def funx(x):
         return x * y
     return funy    #return funy返回的是一个对象，可理解为funx是funy的一个对象
 
-print funx(7)(8)
+#print funx(7)(8)
+

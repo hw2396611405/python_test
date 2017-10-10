@@ -10,7 +10,7 @@
 #import pass_test.py
 # 时间
 #import time_test.py
-import function_test.py
+import function_test
 
 
 
@@ -20,10 +20,10 @@ import function_test.py
     变量名的第一个字符不能是数字
     以下关键字不能声明为变量名
     ['and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'exec', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'not', 'or', 'pass', 'print', 'raise', 'return', 'try', 'while', 'with', 'yield'] """
-name1 = "wupeiqi"
-print name1
-name  = "China"
-print(name)
+#name1 = "wupeiqi"
+#print name1
+#name  = "China"
+#print(name)
 
 
 #i = 2
@@ -129,4 +129,4 @@ print(name)
 #    i += 1
 #    if i >= 10:
 #        break  #注意缩进
-
+print "模块的引入", function_test.sum( 10, 20 )
