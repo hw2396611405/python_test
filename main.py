@@ -9,7 +9,8 @@
 #pass 占位符
 #import pass_test.py
 # 时间
-import time_test.py
+#import time_test.py
+import function_test.py
 
 
 
