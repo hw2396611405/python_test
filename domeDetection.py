@@ -9,7 +9,7 @@ import shutil
 IS_OPEN_AUTO_DEL = False
 
 # 将要解析的项目名称
-DESPATH = "/Users/zhanglipeng/Desktop/jiankangjia"
+DESPATH = "/Users/zhanglipeng/Desktop/项目文件/GJK_IOS1.1"
 
 # 可能检查出错的图片，需要特别留意下
 ERROR_DESPATH = "/Users/zhanglipeng/Desktop/unUseImage/error.log"
@@ -133,12 +133,12 @@ for item in set(source_images.keys()) - use_images:
     ext = os.path.splitext(value)[1]
     shutil.copyfile(value, IMAGE_WDESPATH + item + ext)
     
-    wf.close()
-    
-    ef = open(ERROR_DESPATH, 'w')
-    for item in err_images:
-        ef.write(item)
-    ef.close()
+#    wf.close()
+
+ef = open(ERROR_DESPATH, 'w')
+for item in err_images:
+    ef.write(item)
+ef.close()
 
 if IS_OPEN_AUTO_DEL:
     auto_remove_images()
